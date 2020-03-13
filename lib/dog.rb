@@ -6,7 +6,7 @@ class Dog
   
   def initialize (name)
     @@all<< self  
-    @@dog_names<< name 
+    @@all<< name 
   end 
   
   def name
