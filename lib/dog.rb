@@ -5,7 +5,7 @@ class Dog
   @@dog_names= []
   
   def initialize (name)
-    @@all<< self  
+    @@all<< name  
     @@dog_names<< name 
   end 
   
